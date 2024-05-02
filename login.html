@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akronim&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
+    <link rel="icon" href="./img/logo.png">
+    <link rel="stylesheet" href="./style/login.css">
+    <link rel="stylesheet" href="./style/botao.css">
+    <script src="./js/login.js" defer></script>
+    <title>Emma-Ia</title>
+</head>
+<body>
+    <header>
+        <p>Emma ia</p>
+        <img src="../img/logo.png" alt="">
+    </header>
+
+    <div class="input">
+       <div class="email">
+            <p>Email:</p>
+            <input type="text" placeholder="Email" id="email">
+       </div>
+
+      <div class="senha">
+            <p>Senha:</p>
+            <input type="password" placeholder="senha" id="senha">
+      </div>
+
+       <button onclick="validarLogin()" class="login">Login</button>
+    </div>
+
+   <div class="cadastro">
+        <h4> não tem conta?</h4>
+        <a href="./pages/cadastrar.html" target="_blank"><button class="login"> cadastra-se</button></a>
+   </div>
+    
+</body>
+</html>

@@ -5,10 +5,117 @@
 }
 
 body{
-    height: 100vh;
-    width: 100vw;
+    height: 100vh; 
+    width: 100%;
+    background-image: url('../img/login-fundo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 body img{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+    padding-left: 150px;
+    padding-top: 40px;
+}
+
+
+header img{
+    height: 100px;
+    width: 120px;
+}
+
+header p{
+    font-family: "Akronim", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 80px;
+}
+
+.input{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    padding-left: 100px;
+    padding-top: 100px;
+    gap: 60px;
+    color: #ffff;
+    padding-bottom: 60px;
+}
+
+.email input{
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    font-family: "Just Me Again Down Here", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    outline: none;
+    opacity: 0.3;
+    border: none;
+}
+
+.email{
+    font-family: "Just Me Again Down Here", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: white;
+}
+
+.senha input{
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    font-family: "Just Me Again Down Here", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    outline: none;
+    opacity: 0.3;
+    border: none;
+}
+
+
+.senha{
+    font-family: "Just Me Again Down Here", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: white;
+}
+
+
+.cadastro{
+    width: 600px;
+    justify-content: left;
+    align-self: left;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    align-items: center;
+}
+
+.cadastro h4{
+    color: white;
+    align-self: center;
+    font-family: "Just Me Again Down Here", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+a{
+    width: 200px;
 }
