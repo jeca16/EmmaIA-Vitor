@@ -1,10 +1,10 @@
 'use strict'
 
 async function cadastrarUsuario() {
-    const nome = document.getElementById('nome').value
+    const nome = document.getElementById('user').value
     const email = document.getElementById('email').value
     const senha = document . getElementById ('senha').value
-    const confirmarSenha = document.getElementById('confirmarSenha').value
+    const confirmarSenha = document.getElementById('confirmSenha').value
 
     if (nome == '' || email == '' || senha == '' || confirmarSenha == '') {
         alert('preencha os campos devidamente!')
@@ -19,7 +19,7 @@ async function cadastrarUsuario() {
                     email: email,
                     senha: senha
                 }
-                await fetch('http://localhost:5080/usuario', {
+                await fetch('http://back-login.vercel.app/usuarios', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
