@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,15 +14,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">  
     <link rel="icon" href="../img/logo.png">
     <link rel="stylesheet" href="../style/home.css">
-    <script src="../js/home.js" defer></script>
+    <script src="../js/script.js" defer></script>
    
     <title>Emma-Ia</title>
 </head>
 <body>
-    <!-- <header>
+    <header>
         <p>Emma ia</p>
         <img src="../img/logo.png" alt="">
-    </header> -->
-    
+
+    </header>
+    <main>
+        <textarea class="output1" id="answer-pt" name="" cols="30" rows="10" readonly></textarea>
+        <textarea class="output2" id="tradução" name="" cols="30" rows="10" readonly></textarea>
+    </main>
+
+    <footer>
+        <div class="container-ask-user">
+            <input type="text" id="ask--user" placeholder="faça sua pergunta">
+            <span id="send--request"></span>
+        </div>
+    </footer>
 </body>
 </html>
